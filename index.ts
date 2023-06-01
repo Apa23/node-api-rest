@@ -1,5 +1,3 @@
-import dotenv from 'dotenv'
+require('dotenv').config();
 
-dotenv.config()
-
-require('./src/index')
+require('./src/index.ts');

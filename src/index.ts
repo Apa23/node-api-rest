@@ -1,3 +1,5 @@
-import executeMainServer from "./server";
+import { executeMainServer } from './server';
 
 executeMainServer()
+  .then()
+  .catch((err) => console.log(err));
